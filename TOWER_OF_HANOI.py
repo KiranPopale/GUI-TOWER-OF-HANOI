@@ -26,7 +26,6 @@ d1x,d1y=200,250
 d2x,d2y=200,270
 d3x,d3y=200,290
 
-fd1,fd2,fd3=0,0,0
 
 """ Use this location for three disk placement
 d1x1,d1y1,d1x2,d1y2=180, 240, 220, 260
@@ -41,9 +40,7 @@ d3=can.create_rectangle(d3x-60,d3y-10,d3x+60,d3y+10,outline = "black", fill = "g
     
 
 def start():
-    global fd1,fd2,fd3
-
-    step1()
+      step1()
         
 
 def step1():
